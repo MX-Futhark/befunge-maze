@@ -1,0 +1,25 @@
+               01g68*-2*1+:00pv >110p120p>10g20gg,10g1+10pv   F.
+6+-+-+-+-+-+-+ v  p04::2p03::2< ^      < |-g01+1g00       <        <
+ |#|#|#|#|#|#| 2  A.                     >00g20g-#v_@
+ +-+-+-+-+-+-+ 5                                  >52*,110p20g1+20p^
+ |#|#|#|#|#|#| 0    A. Init variables  ^          <
+ +-+-+-+-+-+-+ p    B. Dig into wall                 Variables:
+ |#|#|#|#|#|#| 2    C. Check available neighbours     - (0,0)   Size of the maze
+ +-+-+-+-+-+-+ 6    D. Choose next cell               - (0,1&2) Current X&Y
+ |#|#|#|#|#|#| 0    E. Unstack if cul-de-sac          - (0,3&4) Tentative X&Y
+ +-+-+-+-+-+-+ p    F. Display result                 - (0,5&6) X&Y of the wall
+ |#|#|#|#|#|#|                                                  to be dug into
+ +-+-+-+-+-+-+                                        - (0,7)   Nb available
+ |#|#|#|#|#|#|                                                  neighbours
+ +-+-+-+-+-+-+   B.             >                 ^                         E.
+v              <                |!g01                                   p01p02<
+>84*50g60gp20p\10p84*10g20gpv   <                                            v <
+^p02::g04p01::g03            <v                                              < |
+ vp070                      <                    D.                           ^<
+v p07+1g07 <     >         v     v                                        <<<< #
+ >75*10g20g 2-g-#^_70g1+70pv  v  <   >10g50p20g1-60p10g30p10g20g2-40p40gg-|
+v         _^#-gg02+2g01*57 <  >75* #v?10g1+50p20g60p20g40p10g2+30p30g20gg- |
+> 75*10g20g2+g-#v_70g1+70p v ^     < >10g50p20g1+60p10g30p10g20g2+40p40gg-  |  g
+v         _v#-gg 02-2g01*57<        > 10g1-50p20g60p20g40p10g2-30p30g20gg-   | 0
+v p07+1g07 <    >          ^ C.    ^                                      <<<< 7
+>          >                                                                   ^
